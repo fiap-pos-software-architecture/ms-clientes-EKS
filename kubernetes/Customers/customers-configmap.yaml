@@ -3,8 +3,7 @@ kind: ConfigMap
 metadata:
   name: customers-configmap
 data:
-  MYSQL_PASSWORD: jm_password
-  MYSQL_DATABASE: tech_challenge_BD
-  MYSQL_USER: jm_user
-  MYSQL_HOST: mysql-db-service
-  MYSQL_PORT: "3306"
+  DB_HOST: mongodb-service
+  DB_PORT: "27017"
+  DB_USER: admin
+  DB_PASSWORD: admin
